@@ -37,7 +37,7 @@ use this command `nvidia-smi` or use `nvidia-smi -l 1` for continous refresh int
 
 if yes: 
 
-No need to further explore (check of temperature of GPU, GPU utilization)
+No need to further explore (check temperature of GPU, GPU utilization)
 
 else No: 
 
