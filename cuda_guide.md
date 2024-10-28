@@ -1,4 +1,5 @@
 Windows
+
 Before doing Anything (For Windows only) 
 Open NVIDIA control panel and, in 3D settings, select the High performance NVIDIA GPU. 
 Even after doing the above step the GPU doesn't work, then follow the next steps: 
@@ -7,13 +8,16 @@ Even after doing the above step the GPU doesn't work, then follow the next steps
 3) Try troubleshooting the specific app-setting in control panel. 
 
 To ckeck if gpu is working or not: 
+
 1) Use the DirectX Diagnostic Tool by pressing Windows key + R, typing "dxdiag"
 2) Navigate to the "Display" tab to view your GPU details
 3) Open task manager go the "Performance tab" and select GPU to see the current status and usage.
 
 
 
+
 Windows (steps) 
+
 Get started with CUDA toolkit for windows: https://developer.nvidia.com/cuda-toolkit
 Choose the appropriate configuration and download CUDA tool kit. 
 
@@ -24,14 +28,19 @@ Choose the appropriate configuration and download CUDA tool kit.
 
 
 Linux
+
 For Linux(only Ubuntu distro) use the below following steps: 
 
 
 Before doing anything check whether GPU is actually getting used
 use this command `nvidia-smi` or use `nvidia-smi -l 1` for continous refresh interval of 1 second.
+
 if yes: 
+
 No need to further explore (check of temperature of GPU, GPU utilization)
+
 else No: 
+
 1) Check whether GPU is seen by the system or not: sudo lshw -C
 2) Download `ubuntu-drivers devices` (`sudo ubuntu-drivers devices`)	
 3) Run nvidia-settings and select Performance in PRIME profiles.
