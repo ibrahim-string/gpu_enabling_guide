@@ -42,7 +42,7 @@ No need to further explore (check temperature of GPU, GPU utilization)
 else No: 
 
 1) Check whether GPU is seen by the system or not: sudo lshw -C
-2) Download `ubuntu-drivers devices` (`sudo ubuntu-drivers devices`)	
+2) Download `ubuntu-drivers devices` or (`sudo ubuntu-drivers devices`)	
 3) Run nvidia-settings and select Performance in PRIME profiles.
 4) After doing all these steps restart your machine. 
 Even if the above steps doesn't fix the issue: 
