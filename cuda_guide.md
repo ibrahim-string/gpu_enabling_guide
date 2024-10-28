@@ -1,4 +1,4 @@
-#Windows
+Windows
 Before doing Anything (For Windows only) 
 Open NVIDIA control panel and, in 3D settings, select the High performance NVIDIA GPU. 
 Even after doing the above step the GPU doesn't work, then follow the next steps: 
@@ -23,7 +23,7 @@ Choose the appropriate configuration and download CUDA tool kit.
 
 
 
-#Linux
+Linux
 For Linux(only Ubuntu distro) use the below following steps: 
 
 
